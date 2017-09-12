@@ -30,6 +30,11 @@ section p {
     padding: 0px 48px;
 }
 
+/* Not including the first section (welcome section) */
+section:not(:first-child) {
+    margin-top: 100px;
+}
+
 .welcome {
     background-image: url(./../assets/header-background-filtered.png); /* Use filtered image */
     background-size: cover;
@@ -68,11 +73,16 @@ section p {
 }
 
 .about {
-    margin-top: 150px;
+    margin-top: 150px !important;
 }
 
-.autocomplete {
-    margin-top: 100px;
+.schedule {
+    background-color: #FFF5F2;
+    padding: 24px 0;
+}
+
+.schedule h1 {
+    margin: 24px 0;
 }
 
 .phone-location {
