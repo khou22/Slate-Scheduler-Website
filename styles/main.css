@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, p {
     font-weight: 300;
     color: #F16746;
 }
-h1 { font-size: 38px; }
+h1 { font-size: 38px; line-height: 100%; margin: 12px 0; }
 
 .regular {
     font-weight: 300;
@@ -20,6 +20,14 @@ h1 { font-size: 38px; }
 
 .bold {
     font-weight: 700;
+}
+
+section {
+    text-align: center;
+}
+
+section p {
+    padding: 0px 48px;
 }
 
 .welcome {
@@ -36,6 +44,7 @@ h1 { font-size: 38px; }
     display: block;
     width: 170px;
     margin: auto;
+    padding-top: 30px; /* Margin top */
 }
 
 .welcome h3 {
@@ -51,14 +60,21 @@ h1 { font-size: 38px; }
     width: 150px;
 }
 
-.phone-autocomplete {
+/* Phone screenshots */
+.phone-autocomplete, .phone-location {
     margin-top: 50px;
     width: 50%;
     max-width: 200px;
 }
 
 .about {
-    margin-top: 120px;
-    padding: 24px 48px;
-    text-align: center;
+    margin-top: 150px;
+}
+
+.autocomplete {
+    margin-top: 100px;
+}
+
+.phone-location {
+    margin: auto;
 }
