@@ -5,6 +5,7 @@ html {
 body {
     /* background-color: white; */
     margin: 0; /* Override default */
+    overflow-x: hidden;
 }
 
 /* Font Styling */
@@ -28,6 +29,8 @@ section {
 
 section p {
     padding: 0px 48px;
+    max-width: 500px;
+    margin: auto;
 }
 
 /* Not including the first section (welcome section) */
@@ -66,10 +69,16 @@ section:not(:first-child) {
 }
 
 /* Phone screenshots */
-.phone-autocomplete, .phone-location {
+.phone-autocomplete, .phone-location, .phone-3d-touch {
     margin-top: 50px;
     width: 50%;
     max-width: 200px;
+}
+
+.phone-schedule {
+    margin: 12px;
+    width: 60%;
+    max-width: 300px;
 }
 
 .about {

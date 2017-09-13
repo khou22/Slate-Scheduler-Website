@@ -13,3 +13,6 @@ http://docs.aws.amazon.com/cli/latest/reference/s3/sync.html
 
 # Configuration
 http://docs.aws.amazon.com/AmazonS3/latest/user-guide/static-website-hosting.html
+
+# Bugs
+1. Mobile optimizations for "About" section overlapping with screenshot
