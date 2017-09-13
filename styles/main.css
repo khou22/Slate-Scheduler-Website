@@ -82,7 +82,7 @@ section:not(:first-child) {
 }
 
 .about {
-    margin-top: 150px !important;
+    margin-top: 220px !important;
 }
 
 .schedule {
@@ -96,4 +96,8 @@ section:not(:first-child) {
 
 .phone-location {
     margin: auto;
+}
+
+.download {
+    margin: 24px 0;
 }
