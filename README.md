@@ -1,11 +1,11 @@
 # Upload Script
 ``` bash
-$ aws s3 sync . s3://slate.khou22.com --exclude ".git/*" --exclude "*/.DS_Store" --exclude "README.md"
+$ aws s3 sync . s3://slate.khou22.com --exclude ".git/*" --exclude "*/.DS_Store" --exclude "README.md" --exclude ".gitignore" --exclude "docs/*"
 ```
 
 # Test the syncing without actually performing action
 ``` bash
-$ aws s3 sync . s3://slate.khou22.com --exclude ".git/*" --exclude "*/.DS_Store" --exclude "README.md" --dryrun
+$ aws s3 sync . s3://slate.khou22.com --exclude ".git/*" --exclude "*/.DS_Store" --exclude "README.md" --exclude ".gitignore" --exclude "docs/*" --dryrun
 ```
 
 # AWS CLI Sync Docs
