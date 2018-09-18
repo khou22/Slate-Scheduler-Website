@@ -39,6 +39,10 @@
             <img class="app-store-download" src="./assets/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />
         </a>
 
+        <a onClick="openBlogPost()">
+            <img class="app-store-download" src="./assets/blog-post-button.png" />
+        </a>
+
         <br>
         <img class="phone-autocomplete" src="./assets/phone-autocomplete.png" />
     </section>
@@ -78,6 +82,11 @@
         function openAppStore(label) {
             ga('send', 'event', ['Button Click'], ['Go to App Store'], [label], [], []);
             window.open('https://itunes.apple.com/us/app/slate-scheduler/id1221189245?ls=1&mt=8', '_blank');
+        };
+
+        function openBlogPost() {
+            ga('send', 'event', ['Button Click'], ['Go to Blog Post'], [], [], []);
+            window.open('http://khou22.com/ios/2017/12/03/slate-taking-my-first-solo-ios-app-from-rd-to-full-scale-product.html', '_blank');
         };
     </script>
 </body>

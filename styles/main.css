@@ -67,6 +67,7 @@ section:not(:first-child) {
 
 .welcome .app-store-download {
     width: 150px;
+    margin: 6px;
 }
 
 /* Phone screenshots */
